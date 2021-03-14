@@ -340,11 +340,8 @@ def single_series_model_outcomes_and_summary_statistics(gvkey_selection, datafra
             print('\n', "Highly probable no significant cointegrating relationship was found", '\n', vecm_ie.args)
             
             
-            ######
-            # consider adding a VAR regression model with GCT if coint_rank ==0 but jointly unit-roots
-            ######
+
             
-######## CHANGE TO BEFORE / AFTER SUBSAMPLES ###### #    
     
     
     ## <OPTIONAL> show graphs by year for the CDS series
